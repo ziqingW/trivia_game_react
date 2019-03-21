@@ -9,6 +9,10 @@ const styles = {
     backgroundColor: '#b3e5fc',
   },
   option: {
+    '&:hover': {
+      cursor: 'pointer',
+      filter: 'brightness(110%)'
+    },
     backgroundColor: '#eee',
     padding: '0.8em',
     fontWeight: '600',
