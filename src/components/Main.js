@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import {Typography, Card, CardContent, Grid, withStyles, LinearProgress, Button} from '@material-ui/core'
+import {Typography, Card, Grid, withStyles, LinearProgress, Button} from '@material-ui/core'
 import { connect } from 'react-redux'
 import * as actions from '../store/actions'
 import SingleQuiz from './SingleQuiz'
