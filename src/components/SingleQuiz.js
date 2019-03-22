@@ -59,7 +59,6 @@ class SingleQuiz extends Component {
 }
 
   setBackground = (answer, index) => {
-    console.log(this.props.correct_answer)
     if (this.state.correct) {
       if (this.state.currentClicked === index) {
         return {backgroundColor : "#4caf50", color: 'white'}
