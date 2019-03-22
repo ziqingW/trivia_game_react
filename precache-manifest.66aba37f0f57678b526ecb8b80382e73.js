@@ -1,26 +1,26 @@
 self.__precacheManifest = [
   {
-    "revision": "349cca47da96ca9a1389",
+    "revision": "879feafa2b22297647d3",
     "url": "/trivia_game_react/static/css/main.26b6ce79.chunk.css"
   },
   {
-    "revision": "349cca47da96ca9a1389",
-    "url": "/trivia_game_react/static/js/main.a0c3001e.chunk.js"
+    "revision": "879feafa2b22297647d3",
+    "url": "/trivia_game_react/static/js/main.d06232d6.chunk.js"
   },
   {
     "revision": "369d35e9e8c22c0e9503",
     "url": "/trivia_game_react/static/js/runtime~main.7eddbb2d.js"
   },
   {
-    "revision": "30c5ed4d15ca3062879a",
+    "revision": "91b4bd4312d3c7387d2a",
     "url": "/trivia_game_react/static/css/2.df2272f2.chunk.css"
   },
   {
-    "revision": "30c5ed4d15ca3062879a",
-    "url": "/trivia_game_react/static/js/2.ea97f727.chunk.js"
+    "revision": "91b4bd4312d3c7387d2a",
+    "url": "/trivia_game_react/static/js/2.d60ba8b7.chunk.js"
   },
   {
-    "revision": "814e568909baf1a400b672c6712590f0",
+    "revision": "a84b04abb125f9b1114d61b144d64f45",
     "url": "/trivia_game_react/index.html"
   }
 ];
