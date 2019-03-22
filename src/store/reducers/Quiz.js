@@ -27,24 +27,19 @@ const quizDataReceived = (state, action) => {
 
 const singleQuizSelected = (state, action) => {
   const visibleItem = state.visibleItem + 1
+  let result = (action.result ? (state.result+10) : (state.result))
   if (visibleItem < state.amount) {
     return {
       ...state,
-      visibleItem
+      visibleItem,
+      result
     }
   } else {
     return {
       ...state,
+      result,
       end: true
     }
-  }
-}
-
-const calculateResults = (state, action) => {
-  const result = state.result + 10
-  return {
-    ...state,
-    result
   }
 }
 
@@ -63,7 +58,6 @@ const handlers = {
   [actions.LOAD_QUIZ]: startLoading,
   [actions.QUIZ_DATA_RECEIVED]: quizDataReceived,
   [actions.SELECT_SINGLE_QUIZ]: singleQuizSelected,
-  [actions.ADD_RESULTS]: calculateResults,
   [actions.REPLAY_GAME]: replayGame
 }
 

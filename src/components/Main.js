@@ -44,8 +44,16 @@ class Main extends Component {
     const {data, visibleItem, end, result, amount, classes} = this.props
       if (!data.length) {return <LinearProgress />}
       else if (!end) {
+        const singleQuiz = data[visibleItem]
+        const correct_answer = singleQuiz.correct_answer
+        if (singleQuiz.type !== "boolean") {
+          const index = Math.floor(Math.random()*3)
+          const answers = Object.assign([], singleQuiz.incorrect_answers)
+          answers.splice(index, 0, correct_answer)
+          singleQuiz['all_answers'] = answers
+        }
     return (
-    <SingleQuiz data={data[visibleItem]} correct_answer={data[visibleItem].correct_answer}/>
+    <SingleQuiz data={singleQuiz} correct_answer={correct_answer}/>
   )
   } else {
   return (
