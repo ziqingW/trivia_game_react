@@ -1,6 +1,6 @@
 {
   "name": "trivia_game",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
   "homepage" : "http://ziqingW.github.io/trivia_game_react",
   "dependencies": {
