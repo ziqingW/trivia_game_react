@@ -3,6 +3,7 @@ import {Typography, Card, Grid, withStyles, LinearProgress, Button} from '@mater
 import { connect } from 'react-redux'
 import * as actions from '../store/actions'
 import SingleQuiz from './SingleQuiz'
+import Summary from './Summary'
 
 const styles = {
   card: {
@@ -64,6 +65,7 @@ class Main extends Component {
         <Grid container justify='center' className={classes.replay}>
           <Button variant="contained" className={classes.button} onClick={this.props.replay}>Yes</Button>
         </Grid>
+        <Summary />
       </Card>
     </Grid>
     )

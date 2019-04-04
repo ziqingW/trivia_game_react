@@ -6,7 +6,8 @@ const initialState = {
   end: false,
   result: 0,
   start: false,
-  amount: 10
+  amount: 10,
+  corrections: {}
 }
 
 const startLoading = (state, action) => {
@@ -26,6 +27,7 @@ const quizDataReceived = (state, action) => {
 }
 
 const singleQuizSelected = (state, action) => {
+  state.corrections[state.visibleItem] = action.result
   const visibleItem = state.visibleItem + 1
   let result = (action.result ? (state.result+10) : (state.result))
   if (visibleItem < state.amount) {
@@ -50,7 +52,8 @@ const replayGame = (state, action) => {
     end: false,
     result: 0,
     start: false,
-    amount: 10
+    amount: 10,
+    corrections: {}
   }
 }
 

@@ -2,7 +2,7 @@
   "name": "trivia_game",
   "version": "0.2.0",
   "private": true,
-  "homepage" : "http://ziqingW.github.io/trivia_game_react",
+  "homepage": "http://ziqingW.github.io/trivia_game_react",
   "dependencies": {
     "@material-ui/core": "^3.9.2",
     "@material-ui/icons": "^3.0.2",
