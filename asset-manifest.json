@@ -1,15 +1,15 @@
 {
-  "main.css": "/trivia_game_react/static/css/main.26b6ce79.chunk.css",
-  "main.js": "/trivia_game_react/static/js/main.38ebace1.chunk.js",
-  "main.js.map": "/trivia_game_react/static/js/main.38ebace1.chunk.js.map",
+  "main.css": "/trivia_game_react/static/css/main.4f9e86ec.chunk.css",
+  "main.js": "/trivia_game_react/static/js/main.2fa84aa7.chunk.js",
+  "main.js.map": "/trivia_game_react/static/js/main.2fa84aa7.chunk.js.map",
   "runtime~main.js": "/trivia_game_react/static/js/runtime~main.7eddbb2d.js",
   "runtime~main.js.map": "/trivia_game_react/static/js/runtime~main.7eddbb2d.js.map",
-  "static/css/2.df2272f2.chunk.css": "/trivia_game_react/static/css/2.df2272f2.chunk.css",
-  "static/js/2.d60ba8b7.chunk.js": "/trivia_game_react/static/js/2.d60ba8b7.chunk.js",
-  "static/js/2.d60ba8b7.chunk.js.map": "/trivia_game_react/static/js/2.d60ba8b7.chunk.js.map",
+  "static/css/2.84f5fece.chunk.css": "/trivia_game_react/static/css/2.84f5fece.chunk.css",
+  "static/js/2.fd9dc63b.chunk.js": "/trivia_game_react/static/js/2.fd9dc63b.chunk.js",
+  "static/js/2.fd9dc63b.chunk.js.map": "/trivia_game_react/static/js/2.fd9dc63b.chunk.js.map",
   "index.html": "/trivia_game_react/index.html",
-  "precache-manifest.5044e33fd59f2efe136e7e898bc64bc9.js": "/trivia_game_react/precache-manifest.5044e33fd59f2efe136e7e898bc64bc9.js",
+  "precache-manifest.ee35b468c1e62887ac865b8105c0f032.js": "/trivia_game_react/precache-manifest.ee35b468c1e62887ac865b8105c0f032.js",
   "service-worker.js": "/trivia_game_react/service-worker.js",
-  "static/css/2.df2272f2.chunk.css.map": "/trivia_game_react/static/css/2.df2272f2.chunk.css.map",
-  "static/css/main.26b6ce79.chunk.css.map": "/trivia_game_react/static/css/main.26b6ce79.chunk.css.map"
+  "static/css/2.84f5fece.chunk.css.map": "/trivia_game_react/static/css/2.84f5fece.chunk.css.map",
+  "static/css/main.4f9e86ec.chunk.css.map": "/trivia_game_react/static/css/main.4f9e86ec.chunk.css.map"
 }
